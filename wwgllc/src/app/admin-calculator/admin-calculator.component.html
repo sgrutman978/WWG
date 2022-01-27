@@ -1,0 +1,11 @@
+<head>
+</head>
+<h2>Helium Admin Calculator</h2>
+<p>Reward transactions are priced from HNT to $ per Coingecko API respective to the live price at the moment each reward transaction was confirmed by the blockchain, not by the current price of the coin. This means that the dollar value you recieve is not equal to the current value of the coins you mined, but rather a collection of each reward transaction's dollar value based on the coin price as each of the transactions took place. For more information, or to view the codebase of this calculator, please contact our CEO, Steven.)</p>
+<p id="meh">hello</p>
+
+Start Date, Format: YYYY-MM-DD <input type="text" id="startDate" [value]="startDate" /> (Inclusive)<br>
+Ending Date, Format: YYYY-MM-DD <input type="text" id="endDate" [value]="endDate" /> (Exclusive)<br>
+<button id="submitter" (click)="submitting()">Submit</button>
+
+<table id="infoTable"></table>

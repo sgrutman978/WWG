@@ -1,0 +1,1 @@
+ssh -i "firstforvirtual.pem" ec2-user@ec2-3-144-24-209.us-east-2.compute.amazonaws.com

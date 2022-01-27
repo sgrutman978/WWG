@@ -1,0 +1,42 @@
+<head>
+    </head>
+    <h2>Helium Calculator</h2>
+    <p>Reward transactions are priced from HNT to $ per Coingecko API respective to the live price at the moment each reward transaction was confirmed by the blockchain, not by the current price of the coin. This means that the dollar value you recieve is not equal to the current value of the coins you mined, but rather a collection of each reward transaction's dollar value based on the coin price as each of the transactions took place. For more information, or to view the codebase of this calculator, please contact our CEO, Steven.)</p>
+    <p id="meh">hello</p>
+
+    Start Date, Format: YYYY-MM-DD <input type="text" id="startDate" [value]="startDate" /> (Inclusive)<br>
+Ending Date, Format: YYYY-MM-DD <input type="text" id="endDate" [value]="endDate" /> (Exclusive)<br>
+<button (click)="submitting()">Submit</button>
+
+<table id="infoTable" #infoTable></table>
+
+<!-- (click)="sort(col.propertyName)" -->
+
+<!-- <b><tr><th>Name</th><th>Lessor</th><th>HNT</th><th>Dollars</th><th>Hash</th></tr></b> -->
+    
+    <!-- Start Date, Format: YYYY-MM-DD <input type="text" id="startDate" /> (Inclusive)<br>
+    Ending Date, Format: YYYY-MM-DD <input type="text" id="endDate" /> (Exclusive)<br> -->
+    <!-- <select id="periodSelect">
+        <option *ngFor="let period of displayPeriods.reverse()">
+            {{period}}
+        </option>
+    </select>
+    <button id="submit" (click)="doStuff()">Submit</button> -->
+    <!-- <div *ngFor="let hotspot of finalData2 | keyvalue: valueAscOrder"> 
+        <mat-card *ngIf="hotspot.value.length-1 > 0">
+            <mat-card-title>{{getName(hotspot.key)}}</mat-card-title>
+            <mat-card-subtitle>Hash: <a href="https://explorer.helium.com/hotspots/{{hotspot.key}}" target="_blank">{{hotspot.key}}</a></mat-card-subtitle>
+            <mat-card-subtitle>Current Host: {{getLessor(hotspot.key)}}</mat-card-subtitle>
+            <mat-card-content>
+              <p>Number of reward transactions: {{hotspot.value.length-1}}</p>
+              <p>Total HNT Collected: {{hotspot.value[hotspot.value.length-1].amount_HNT_token}} HNT</p>
+              <p>Host's 20%: ${{hotspot.value[hotspot.value.length-1].amount_$ * 0.2}}</p>
+            </mat-card-content>
+            <mat-card-actions>
+              <button mat-button (click)="tocsv2(hotspot.key)">Download Report</button>
+            </mat-card-actions>
+        </mat-card>
+    </div> -->
+
+    <br>
+    <br>

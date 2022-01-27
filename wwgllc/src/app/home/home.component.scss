@@ -1,0 +1,65 @@
+.contentBox1 {
+    width:100%;
+    height:360px;
+    display: inline-block;
+    margin-top:-10px;
+}
+.contentBox2 {
+    width:100%;
+    display: inline-block;
+    margin-top:-10px;
+    position:relative;
+}
+.white {
+    background-color: white;
+}
+.grey{
+    background-color:#cccccc;
+}
+.green{
+    background-color:#8bc456;
+}
+.darkGreen{
+    background-color:green;
+    height:40vw;
+}
+#miners{
+    width:50%;
+    top:-15vw;
+    right:5vw;
+    float:right;
+    position:relative;
+}
+#telAviv{
+    width:100%;
+    margin-top:-10px;
+}
+.mapPin{
+    width:10vw;
+    height:10vw;
+    position:absolute;
+}
+#mapPin1{
+    right:7vw;
+    top:-36vw;
+}
+#mapPin2{
+    left:18vw;
+    top:-15vw;
+}
+#mapPin3{
+    right:30vw;
+    top:-27vw;
+}
+#mapPin4{
+    left:7vw;
+    top:-30vw;
+}
+#mapPin5{
+    right:55vw;
+    top:-33vw;
+}
+#mapPin6{
+    right:2.5vw;
+    top:-15vw;
+}
